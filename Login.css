@@ -102,10 +102,6 @@ body {
   color: #ffffff;
 }
 
-.btnDiv {
-  width: 100%;
-}
-
 .btn {
   width: 100%;
   padding: 1vw;
@@ -117,6 +113,7 @@ body {
   font-weight: 4600;
   text-transform: capitalize;
   transition: 0.3s ease;
+  margin-top: 0.5vw;
 }
 
 .btn:hover {
