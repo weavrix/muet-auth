@@ -1,0 +1,128 @@
+:root {
+  --arrow-bg: rgba(255, 255, 255, 0.3);
+  --arrow-icon: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg);
+  --option-bg: #717171;
+  --select-bg: #00000048;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.mainContainer {
+  width: 80vw;
+  height: 90vh;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 168px 11px rgba(0, 0, 0, 0.28);
+}
+
+.secondrySection {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.secondrySection img {
+  width: 500px;
+}
+
+.primarySection {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-direction: column;
+  padding: 8vw;
+  gap: 2vw;
+  background-color: #2a1470;
+}
+
+.titleAndQuery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  gap: 0.5vw;
+  text-transform: capitalize;
+  color: white;
+}
+
+.query {
+  font-size: 13px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
+
+.query a {
+  color: white;
+  margin-left: 0.5vw;
+  text-transform: capitalize;
+}
+
+.inputFields {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.5vw;
+  text-transform: capitalize;
+}
+
+.inputFields input {
+  width: 100%;
+  padding: 1vw;
+  border-radius: 0.3vw;
+  outline: none;
+  border: none;
+  background-color: #00000048;
+  backdrop-filter: blur(10px);
+  text-transform: capitalize;
+  color: white;
+}
+
+.inputFields input::placeholder {
+  color: #ffffff;
+}
+
+.btnDiv {
+  width: 100%;
+}
+
+.btn {
+  width: 100%;
+  padding: 1vw;
+  border-radius: 0.3vw;
+  outline: none;
+  border: none;
+  color: #2a1470;
+  font-size: 18px;
+  font-weight: 4600;
+  text-transform: capitalize;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: scale(0.8);
+}
